@@ -19,8 +19,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-        "http://localhost:3000",
-        "https://mern-stack-blog-seven.vercel.app/"
+        "https://mern-stack-blog-la18y9b9l-yousef1242.vercel.app/"
     ],
   })
 );
