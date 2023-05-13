@@ -16,9 +16,7 @@ connectMongodb();
 app.use(express.json());
 
 //Cors Policy
-app.use(cors({
-  origin : "https://mern-stack-blog-4rt8.onrender.com/"
-}));
+app.use(cors());
 
 //routes
 app.use("/", authRoute);
