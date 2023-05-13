@@ -20,7 +20,7 @@ app.use(
   cors({
     origin: [
         "http://localhost:3000",
-        "https://mern-stack-blog-app.onrender.com"
+        "https://mern-stack-blog-seven.vercel.app/"
     ],
   })
 );
