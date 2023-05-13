@@ -19,7 +19,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-        "https://mern-stack-blog-la18y9b9l-yousef1242.vercel.app/"
+        "http://localhost:3000",
+        "https://mern-stack-blog-app.onrender.com"
     ],
   })
 );
